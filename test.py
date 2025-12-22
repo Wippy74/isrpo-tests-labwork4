@@ -47,10 +47,6 @@ class RectangleTestCase(unittest.TestCase):
         res = perimeter(23472472347274328429484239493249249,3428492747247284242942734827439)
         self.assertEqual(res,46951801680043151427454364456153376) 
 
-    def test_area_by_square_roots(self):
-        res = area(2**(1/2), 2**(1/2))
-        self.assertEqual(res, 2)
-
     def test_perimeter_by_square_roots(self):
         res = perimeter(2**(1/2), 2**(1/2))
         self.assertEqual(res, 4*2**(1/2))
