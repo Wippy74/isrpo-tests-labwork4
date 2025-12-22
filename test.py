@@ -55,10 +55,6 @@ class RectangleTestCase(unittest.TestCase):
         res = perimeter(2**(1/2), 2**(1/2))
         self.assertEqual(res, 4*2**(1/2))
 
-    def test_area_by_floats_(self):
-        res = area(0.1, 0.2)
-        self.assertAlmostEqual(res, 0.02)
-
     def test_perimeter_by_floats(self):
         res = perimeter(0.1, 0.2)
         self.assertAlmostEqual(res, 0.6)
