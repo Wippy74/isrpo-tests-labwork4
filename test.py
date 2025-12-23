@@ -1,10 +1,5 @@
 import unittest
-
-def area(a,b):
-    return a*b;
-
-def perimeter(a,b):
-    return 2*(a+b);
+from rectangle import area, perimeter
 
 class RectangleTestCase(unittest.TestCase):
     def test_area_by_zeros(self):
